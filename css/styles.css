@@ -1,0 +1,92 @@
+body {
+  background-color: #002661;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 662px;
+  height: 821px;
+  align-items: center;
+  background-color: #0062f5;
+}
+
+.title_login {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+  margin-top: 109px;
+  margin-bottom: 0px;
+}
+
+.login img {
+  margin-top: 11px;
+}
+
+.user,
+.password {
+  height: 44px;
+  width: 321px;
+  background-color: #d9d9d9;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.user {
+  margin-top: 59px;
+}
+
+.password {
+  margin-top: 45px;
+  margin-bottom: 29px;
+}
+.user::placeholder,
+.password::placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: rgba(0, 38, 97, 0.2);
+}
+
+.login p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.login button {
+  width: 100px;
+  height: 40px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 10%;
+}
+
+.login button:hover {
+  cursor: pointer;
+  background-color: #002661;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}

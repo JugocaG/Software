@@ -1,0 +1,104 @@
+body {
+  background-color: #002661;
+  display: flex;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #0062f5;
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+}
+
+header a:hover {
+  border: 1px solid #ffffff;
+  background-color: #002661;
+}
+
+header img {
+  margin: 29px 40px;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.icono_perfil {
+  display: flex;
+  justify-content: flex-end;
+}
+main {
+  margin: 0 auto;
+}
+
+.icono_perfil img {
+  margin-top: 41px;
+}
+
+.perfil_horario {
+  margin-bottom: 20px;
+}
+
+/* INICIO */
+
+main h1 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 234px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* HORARIO */
+
+.search {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.horario {
+  width: 1100px;
+}
+table {
+  border-collapse: collapse;
+  width: 1100px;
+  background-color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+}
+th,
+td {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+td {
+  width: 146px;
+  height: 68px;
+}
+.headers {
+  background-color: #f7f7f7;
+  height: 50px;
+}
+
+.example {
+  background-color: #d9d9d9;
+  border: 1px solid #ffffff;
+}
+
+.time {
+  width: 78px;
+}
