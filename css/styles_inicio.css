@@ -65,6 +65,37 @@ main h1 {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.search button {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  background-color: #0062f5;
+  color: #ffffff;
+  width: 20%;
+  margin: 20px 0px;
+  height: 40px;
+  left: 682px;
+  border: 1px solid #002661;
+  border-radius: 5px;
+}
+
+.search input {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  background-color: #ffffff;
+  margin: 20px 0px;
+}
+
+.search p {
+  margin: 0px;
 }
 
 .horario {
@@ -82,12 +113,12 @@ th,
 td {
   text-align: center;
   border: 1px solid #ddd;
-  padding: 10px;
+  padding: 8px;
 }
 
 td {
   width: 146px;
-  height: 68px;
+  height: 50px;
 }
 .headers {
   background-color: #f7f7f7;
@@ -101,4 +132,22 @@ td {
 
 .time {
   width: 78px;
+}
+
+/* Informes */
+
+.reporting_icons {
+  display: flex;
+  justify-content: space-around;
+  width: 1022px;
+  margin: 200px 0px;
+}
+
+.reporting_icons a {
+  display: flex;
+  background-color: #0062f5;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
