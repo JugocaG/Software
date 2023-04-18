@@ -70,7 +70,8 @@ main h1 {
   align-items: center;
 }
 
-.search button {
+.search button,
+.ver_informe {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 20px;
