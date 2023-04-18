@@ -7,7 +7,7 @@
     />
     <link rel="stylesheet" href="css/styles_inicio.css" />
     <meta charset="UTF-8" />
-    <title>Informes</title>
+    <title>Personal medico</title>
   </head>
   <body>
     <header>
@@ -27,20 +27,36 @@
         ><img src="images/informes.png" alt="Imagen de un informe"
       /></a>
     </header>
-
     <main>
       <div class="icono_perfil perfil_horario">
         <img src="images/icono_perfil.png" alt="Icono de perfil" />
       </div>
-      <div class="reporting_icons">
-        <a href=""
-          ><img src="images/icono_busqueda.png" alt="Icono de busqueda"
-        /></a>
-        <a href=""><img src="images/icono_suma.png" alt="Icono de suma" /></a>
-        <a href=""
-          ><img src="images/icono_editar.png" alt="Icono de editar"
-        /></a>
-      </div>
+      <section class="search">
+        <p>Nombre</p>
+        <input type="text" />
+        <button type="button">Buscar</button>
+        <button type="button">Editar medicos</button>
+        <button type="button">Actualizar</button>
+      </section>
+      <section>
+        <table>
+          <tr>
+            <th>Nombre</th>
+            <th>Identificacion</th>
+            <th>Grupo Sanguineo</th>
+            <th>EPS/IPS</th>
+            <th>Horas semanales</th>
+          </tr>
+          <tr>
+            <td>Juan David Gomez Calderon</td>
+            <td>C.C 1083984250</td>
+            <td>O+</td>
+            <td>Nueva EPS</td>
+            <td>10</td>
+          </tr>
+        </table>
+      </section>
+      <button class="ver_informe" type="button">Ver informe completo</button>
     </main>
   </body>
 </html>
